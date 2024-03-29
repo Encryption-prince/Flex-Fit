@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Fit | Ecommerce Website</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a6f061081d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <!-- <img src="./assets/images/logo.png" alt="" width="125px"/> -->
+              <h1>Flex Fit <i class="fa-solid fa-shirt"></i></h1>
+            </a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li data-aos="fade-down" data-aos-delay="100"><a href="index.html">Home</a></li>
+              <li data-aos="fade-down" data-aos-delay="300"><a href="#categories-id">Categories</a></li>
+              <li data-aos="fade-down" data-aos-delay="500"><a href="#products-id">Products</a></li>
+              <li data-aos="fade-down" data-aos-delay="700"><a href="#footer-id">Contact</a></li>
+              <li data-aos="fade-down" data-aos-delay="900"><a href="account.html">Account</a></li>
+              <!-- TODo: 22:20 -->
+            </ul>
+          </nav>
+          <a href="cart.html"
+            ><img src="./assets/images/cart.png" alt="" width="30px" height="30px"
+          /></a>
+          <img
+            src="./assets/images/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
+        
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give your Workout<br />
+              a new Style!
+            </h1>
+            <p>
+              At Flex Fit, we believe in empowering individuals to reach their fitness goals with confidence and style. Our high-performance fitness costumes blend innovative design with premium materials, ensuring comfort and functionality for every workout
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="./assets/images/Custom-Logo-Men-s-Gym-T-Shirts-Active-Wear-Seamless-Sweat-Plain-T-Shirt.png" alt="" class="opener-logo" style="margin-left: 125px;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----- Featurd Categories--------->
+    <section id="categories-id" >
+     <div class="categories" data-aos="fade-up">
+      <h2 class="title" >Categories</h2>
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="./assets/images/category-1.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="./assets/images/category-2.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="./assets/images/category-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+    <!----- Featurd Products--------->
+    <section id="products-id">
+      <div class="small-container" data-aos="fade-up">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+          <div class="col-4">
+            <a href="product-details.html">
+              <img src="./assets/images/product-1.jpg" alt=""
+            /></a>
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+  
+          <div class="col-4">
+            <img src="./assets/images/product-2.jpg" alt="" />
+            <h4>HRX Shoes</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+  
+          <div class="col-4">
+            <img src="./assets/images/product-3.jpg" alt="" />
+            <h4>Spookey Pants</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./assets/images/product-4.jpg" alt="" />
+            <h4>Puma T-shirt</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+          <div class="col-4">
+            <img src="./assets/images/product-5.jpg" alt="" />
+            <h4>Wollen Shoes</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+  
+          <div class="col-4">
+            <img src="./assets/images/product-6.jpg" alt="" />
+            <h4>Puma T-shirt</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+  
+          <div class="col-4">
+            <img src="./assets/images/product-7.jpg" alt="" />
+            <h4>HRX Shocks</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./assets/images/product-11.jpg" alt="" />
+            <h4>Comfy Cool</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img src="./assets/images/product-4.jpg" alt="" />
+            <h4>Blue Printed T-shirt</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+  
+          <div class="col-4">
+            <img src="./assets/images/product-10.jpg" alt="" />
+            <h4>X Shoes</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+  
+          <div class="col-4">
+            <img src="./assets/images/product-11.jpg" alt="" />
+            <h4>Easy Fit</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./assets/images/product-12.jpg" alt="" />
+            <h4>Joggers</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-------- Offer --------->
+    <section id="offers-id" data-aos="fade-up">
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <!-- <img src="./assets/images/exclusive.png" class="offer-img" alt="" /> -->
+            <img src="./assets/images/vogue-navy-blue_prev_ui.png" class="offer-img" alt="" data-aos="flip-left" data-aos-duration="1000000">
+          </div>
+          <div class="col-2">
+            <p style="font-weight: 400; font-size: 50px;">Exclusively available on Flex Fit</p>
+            <h1>Vouge 3.O Edition</h1>
+            <small
+              >"Elevate your workout wardrobe with our exclusive Vouge 3.0 t-shirt, crafted for unparalleled comfort and style. Engineered with cutting-edge materials and sleek design, it's the ultimate fusion of performance and fashion."
+            </small>
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+
+    <!------ Testimonial  ------>
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, esse
+              quae ex sequi praesentium fuga voluptatem placeat voluptates odio
+              rerum.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="./assets/images/user-1.png" alt="" />
+            <h3>Sean Parker</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, esse
+              quae ex sequi praesentium fuga voluptatem placeat voluptates odio
+              rerum.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="./assets/images/user-2.png" alt="" />
+            <h3>Michel Joe</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, esse
+              quae ex sequi praesentium fuga voluptatem placeat voluptates odio
+              rerum.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="./assets/images/user-3.png" alt="" />
+            <h3>Kaily Jenner</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Brands -->
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="./assets/images/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-oppo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-paypal.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-philips.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="./assets/images/logo-coca-cola.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <section id="footer-id">
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>
+              Download App for Android <br />
+              and ios mobile phone
+            </p>
+            <div class="app-logo">
+              <img src="./assets/images/play-store.png" alt="" />
+              <img src="./assets/images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <!-- <img src="./assets/images/logo-white.png" alt="" /> -->
+            <h1 class="logo-clr">Flex Fit <i class="fa-solid fa-shirt"></i></h1>
+            <p>
+              One Stop Solution for all Fitness lovers <br>
+              What are u waiting for?
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright" id="copyright-text">Copyright 2024</p>
+      </div>
+    </div>
+    
+    </section>
+    
+    <!-- scripts -->
+    <script src="../assets/js/toggleMenu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
